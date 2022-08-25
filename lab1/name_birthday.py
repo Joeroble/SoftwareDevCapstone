@@ -5,6 +5,7 @@ months = {1: 'JANUARY', 2: 'FEBRUARY', 3: 'MARCH', 4: 'APRIL', 5: 'MAY', 6: 'JUN
 
 # defines the main function where all the action is called upon/established.
 def main():
+    print('Hello, and welcome! Please introduce yourself!')
     date_today = date.today()
     user_name = get_name()
     birthday_month = get_birthday_month()
