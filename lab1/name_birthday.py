@@ -36,6 +36,8 @@ def birthday_month_check(month, date):
     date_conversion = months[date_month]
     if month.upper() == date_conversion:
         print('Happy Birthday month!')
+    else:
+        print('It is not your birthday month yet!')
 
 main()
 
