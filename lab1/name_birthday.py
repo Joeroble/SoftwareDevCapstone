@@ -11,7 +11,8 @@ def main():
     birthday_month = get_birthday_month()
     print('Hello, '+ user_name)
     birthday_month_check(birthday_month, date_today)
-    print(len(user_name))
+    letters_in_name = len(user_name)
+    print(f'You have{letters_in_name} letters in your name')
 
 # get_name function will request the user to enter a name and check to ensure at least one character was entered.
 def get_name ():
