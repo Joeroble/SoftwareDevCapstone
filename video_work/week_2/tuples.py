@@ -13,6 +13,7 @@ city, state = first_city_state
 print(city)
 
 animals = ('lion', 'puma', 'tiger')
+print(animals)
 
 lion, puma, tiger = animals
 print(tiger)

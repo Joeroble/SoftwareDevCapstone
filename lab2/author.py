@@ -23,6 +23,7 @@ class Author:
     def __init__(self, name):
         self.name = name
         self.books = []
+        # self.books = set()
         
     def __str__(self):
         #variation
@@ -40,6 +41,12 @@ class Author:
             print('Sorry, this book has already been added.')
         else:
             self.books.append(book)
+
+        # self.books.add(book)
+
+        
+            
+    
 
 
 
