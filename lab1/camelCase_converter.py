@@ -2,6 +2,7 @@
 
 # defines the main function
 def main():
+    banner()
     new_sentence = input('Please enter a sentence: ')
     converted = camelCase_conversion(new_sentence)
     print(converted)
@@ -25,6 +26,11 @@ def camelCase_conversion(sentence):
     combined = space.join(converted_sentence)
     return combined
 
-        
+def banner():
+    """Display program name"""
+    message = "Awesome camelcase program!!"
+    stars = '*' * len(message)
+    print(f'\n{stars} \n{message} \n{stars}')
+
 
 main()        
