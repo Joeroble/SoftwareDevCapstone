@@ -30,7 +30,7 @@ def banner():
     """Display program name"""
     message = "Awesome camelcase program!!"
     stars = '*' * len(message)
-    print(f'\n{stars} \n{message} \n{stars}')
+    print(f'\n{stars} \n{message} \n{stars}\n')
 
 
 main()        
