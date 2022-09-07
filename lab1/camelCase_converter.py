@@ -1,4 +1,4 @@
-
+"""Camelcase converter program!"""
 
 # defines the main function
 def main():
