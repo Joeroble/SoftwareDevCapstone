@@ -3,6 +3,7 @@
 # defines the main function
 def main():
     banner()
+    instructions()
     new_sentence = input('Please enter a sentence: ')
     converted = camelCase_conversion(new_sentence)
     print(converted)
@@ -32,5 +33,7 @@ def banner():
     stars = '*' * len(message)
     print(f'\n{stars} \n{message} \n{stars}\n')
 
+def instructions():
+    print('Enter a sentence and this program will convert it to camelcase.')
 
 main()        
