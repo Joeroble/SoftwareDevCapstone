@@ -11,5 +11,6 @@ class TestShapeAreas(TestCase):
     def test_triangle_area_floating_point(self):
         self.assertAlmostEqual(17.79875, area.triangle_area(7.25, 4.91))
 
+    
 if __name__ == '__main__':
     unittest.main()
